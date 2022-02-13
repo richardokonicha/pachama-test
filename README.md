@@ -3,9 +3,10 @@
 A place to Discover
 
 <div>
-<img alt="forest view" src="https://github.com/konichar/bubble/blob/master/webscreen.png?raw=true"></img>
 
-<img alt="forest view" width="400px" src="https://github.com/konichar/bubble/blob/master/nft.png?raw=true"></img>
+<img width="1635" alt="Screenshot 2022-02-13 at 12 55 23" src="https://user-images.githubusercontent.com/48168290/153751887-71fafdd4-13ca-4b97-8591-d96131b63f7a.png">
+
+<img alt="forest view" width="400px" src="https://user-images.githubusercontent.com/48168290/153751813-cdd13256-9695-4cbf-957e-0a9592e883ae.png"></img>
 <div>
 
 
