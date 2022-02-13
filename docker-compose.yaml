@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  pachama_fe:
+    container_name: pachama_fe
+    image: pachama_fe
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
+
+    depends_on:
+      - pachama_be
+
+  pachama_be:
+    container_name: pachama_be
+    build: ./backend
+    command: ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+
+   
+
