@@ -33,14 +33,13 @@
     "webpack-dev-server": "^4.7.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "dev": "nodemon express.js",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "dev": "node init && nodemon express.js",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:8000/",
-
   "eslintConfig": {
     "extends": [
       "react-app",
